@@ -83,3 +83,23 @@ Steps performed on raw data:
 
 
 **Confusion Matrix:**  
+[[920 113]
+[191 183]]
+
+
+---
+
+## 📊 Results  
+- The model achieved ~**78.4% accuracy** in predicting churn.  
+- Identified key churn indicators such as **service subscriptions, contract type, and payment methods**.  
+- Showed a trade-off between **precision and recall** → indicating room for improvement in correctly identifying churners.  
+
+---
+
+## 📌 Future Enhancements  
+- Apply **ensemble methods** like XGBoost, LightGBM, CatBoost for higher accuracy  
+- Use **deep learning (ANNs)** for better feature learning  
+- Perform **feature importance analysis** to identify strongest churn drivers  
+- Deploy as a **Flask/Streamlit web app** for business use  
+
+---
